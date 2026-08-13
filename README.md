@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/banner.svg" alt="ReefSight banner" width="800"/>
+<img src="assets/banner.png" alt="ReefSight banner" width="800"/>
 
 # ReefSight
 
