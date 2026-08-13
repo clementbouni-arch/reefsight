@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04293A"/>
+      <stop offset="55%" stop-color="#065A82"/>
+      <stop offset="100%" stop-color="#0A7EA4"/>
+    </linearGradient>
+    <linearGradient id="fishBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF9E2C"/>
+      <stop offset="100%" stop-color="#FFC65C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#ocean)"/>
+
+  <!-- soft bubbles -->
+  <circle cx="120" cy="60" r="5" fill="#ffffff" opacity="0.18"/>
+  <circle cx="160" cy="100" r="3" fill="#ffffff" opacity="0.15"/>
+  <circle cx="90" cy="150" r="4" fill="#ffffff" opacity="0.12"/>
+  <circle cx="1080" cy="70" r="6" fill="#ffffff" opacity="0.15"/>
+  <circle cx="1120" cy="140" r="3" fill="#ffffff" opacity="0.12"/>
+  <circle cx="1040" cy="200" r="4" fill="#ffffff" opacity="0.1"/>
+
+  <!-- bounding box motif, right side -->
+  <rect x="870" y="70" width="240" height="170" rx="10" fill="none" stroke="#3DDC97" stroke-width="3" stroke-dasharray="10 8" opacity="0.85"/>
+  <text x="880" y="95" fill="#3DDC97" font-size="16" font-weight="600">ClownFish 0.97</text>
+
+  <!-- simple fish icon -->
+  <g transform="translate(945,150)">
+    <path d="M0,0 C40,-45 110,-45 150,0 C110,45 40,45 0,0 Z" fill="url(#fishBody)"/>
+    <path d="M0,0 L-35,-28 L-35,28 Z" fill="url(#fishBody)"/>
+    <circle cx="115" cy="-8" r="6" fill="#04293A"/>
+    <path d="M60,-6 C75,-20 95,-20 100,-4 C90,-4 75,-2 60,-6 Z" fill="#ffffff" opacity="0.35"/>
+  </g>
+
+  <!-- title block -->
+  <text x="70" y="130" fill="#EAF6FF" font-size="54" font-weight="700" letter-spacing="1">ReefSight</text>
+  <text x="70" y="168" fill="#8FD8F2" font-size="22" font-weight="400">Aquarium fish detection &amp; identification</text>
+  <text x="70" y="205" fill="#5FB8D9" font-size="16" font-weight="400">Faster R-CNN &middot; PyTorch &middot; fine-tuned on 13 species</text>
+</svg>
